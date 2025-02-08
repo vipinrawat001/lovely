@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: "Roslinde Display Condensed";
+    background: #000;
+    overflow-x: hidden;
+}
+
+/* Hide scrollbar for Chrome, Safari, and Edge */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for Firefox */
+body {
+    scrollbar-width: none;
+}
+
+/* Hide scrollbar for Internet Explorer and Edge */
+html {
+    -ms-overflow-style: none;
+}
+
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+h1 {
+    width: 100%;
+    color: #fff;
+    font-size: 48vw;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper-777 {
+    position: absolute;
+    top: 0;
+    width: 460vw;
+    height: 100vh;
+    will-change: transform;
+}
+
+.card {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#card-1 { top: 45%; left: 30%; }
+#card-2 { top: 10%; left: 40%; }
+#card-3 { top: 60%; left: 54%; }
+#card-4 { top: 10%; left: 62%; }
+#card-5 { top: 55%; left: 78%; }
+#card-6 { top: 35%; left: 85%; }
+
+.outro{
+    position:absolute;
+    top: 200vh;
+    width: 100%;
+    height: 100vh;
+    left: 50%;
+
+}
+
+.outro h1{
+    position: relative;
+    margin-top: 40px;
+    transform: translate(-50%, -50% );
+    width: max-content;
+    font-size: 40px;
+    font-weight: lighter;
+    text-align: center;
+}
+
