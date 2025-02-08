@@ -86,22 +86,3 @@ nav {
 #card-5 { top: 55%; left: 78%; }
 #card-6 { top: 35%; left: 85%; }
 
-.outro{
-    position:absolute;
-    top: 100vh;
-    width: 100%;
-    height: 100vh;
-    left: 50%;
-
-}
-
-.outro h1{
-    position: relative;
-    margin-top: 40px;
-    transform: translate(-50%, -50% );
-    width: max-content;
-    font-size: 40px;
-    font-weight: lighter;
-    text-align: center;
-}
-
